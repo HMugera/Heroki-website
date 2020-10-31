@@ -73,6 +73,10 @@ Navbar */
   justify-content: space-between;
 }
 
+.hidden{
+    visibility: hidden;
+    height: 0;
+}
 /* Showcase */
 .showcase {
   background-color: var(--primary-color);
@@ -244,11 +248,11 @@ Navbar */
   .docs-main .grid {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
-  }
+  } 
   .showcase {
     height: auto;
   }
-  .showcase-text {
+  .showcase-text { 
     text-align: center;
     margin-top: 40px;
     animation: slideInFromTop 1s ease-in;
